@@ -14,6 +14,14 @@
         android:textSize="20sp" />
 
     <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/name"
+        android:hint="Your Name"
+
+        />
+
+    <EditText
         android:id="@+id/secretEntered"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,6 +37,14 @@
         android:text="save"
         android:textAllCaps="true"
         android:onClick="saveSecret" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secretIdentity"
+        android:layout_marginTop="20dp"
+        android:inputType="textPersonName"
+        android:hint="Whose secret would you like to look up" />
 
     <Button
         android:layout_width="match_parent"
