@@ -38,6 +38,8 @@ public class MainActivity extends AppCompatActivity {
 
     public void revealSecret(View view) {
         Intent intent = new Intent(this, SecondActivity.class);
+        EditText secretNamed = (EditText) findViewById(R.id.secretIdentity);
+        intent.putExtra("target", secretNamed.getText().toString());
         startActivity(intent);
 
 

@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Secret</string>
+    <string name="noSecretFound">No secret found</string>
+
 </resources>
